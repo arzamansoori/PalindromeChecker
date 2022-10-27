@@ -12,9 +12,10 @@ function palindromeChecker(){
 btn.addEventListener("click", () =>{
     paraVal = palindromeChecker();
     if(paraVal == val.value){
-        para.innerHTML = `${paraVal} is a palindrome`
+        para.innerHTML = `${val.value} is a palindrome`
     }
     else{
-        para.innerHTML = `${paraVal} is not a palindrome`
+        para.innerHTML = `${val.value} is not a palindrome`
     }
+    val.value =" ";
 })
