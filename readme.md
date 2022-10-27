@@ -22,7 +22,7 @@ Palindrome Checker Website helps you to check whether the given word or number i
 #
 To use Palindrome Checker website or to see the project. Please click on the deployed link below.
 
-[Palindrome Checker](https://wordcountwebsite.netlify.app/)
+[Palindrome Checker](https://palindromecheckerwebsite.netlify.app/)
 <br>
 <br>
 <!-- ![STOPWATCH Website Image](./stopwatch.png) -->
