@@ -4,18 +4,19 @@ const btn = document.getElementById("btn");
 let paraVal;
 
 function palindromeChecker(){
-    return val.value.split("").reverse().join("");
+    const rev = val.value.split(" ").join("");
+    return rev.split("").reverse().join("");
 }
 
 
 
 btn.addEventListener("click", () =>{
     paraVal = palindromeChecker();
-    if(paraVal == val.value){
-        para.innerHTML = `${val.value} is a palindrome`
+    if(paraVal == val.value.split(" ").join("")){
+        para.innerHTML = `${val.value} is a Palindrome`
     }
     else{
-        para.innerHTML = `${val.value} is not a palindrome`
+        para.innerHTML = `${val.value} is not a Palindrome`
     }
     val.value =" ";
 })
