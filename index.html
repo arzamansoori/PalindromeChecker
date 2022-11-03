@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
-    <title>Document</title>
+    <title>Palindrome Checker</title>
 </head>
+
 <body>
-    <p>ENTER TEXT OR NUMBER TO CHECK IF IT IS PALINDROME OR NOT:</p>
-    <input type="text" name="palindrome" id="val">
-    <button id="btn">Check</button>
-    <p id="para"></p>
+    <p class="heading">PALINDROME CHECKER</p>
+    <div class="middle">
+        <input placeholder="Enter word/number to check for palindrome"  type="text" name="palindrome"
+            id="val" class="inputValue">
+        <button id="btn" class="checkBtn">Check</button>
+    </div>
+    <p id="para" class="bottom"></p>
     <script src="/script.js"></script>
 </body>
+
 </html>
