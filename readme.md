@@ -1,6 +1,6 @@
 ![PalindromeChecker](https://img.shields.io/badge/Palindrome-Checker-%23FF9180)
 
-Palindrome Checker website is created with using HTML, CSS(styling yet to be done) and JavaScript.
+Palindrome Checker website is created with using HTML, CSS and JavaScript.
 
 ## TABLE OF CONTENTS
 #
@@ -15,7 +15,7 @@ Palindrome Checker Website helps you to check whether the given word or number i
 ### Technologies
 #
 * HTML
-* CSS(yet to be done)
+* CSS
 * JavaScript
 
 ### Launch
@@ -25,5 +25,5 @@ To use Palindrome Checker website or to see the project. Please click on the dep
 [Palindrome Checker](https://palindromecheckerwebsite.netlify.app/)
 <br>
 <br>
-<!-- ![STOPWATCH Website Image](./stopwatch.png) -->
+![Palindrome Website Image](./palindrome.png)
 
